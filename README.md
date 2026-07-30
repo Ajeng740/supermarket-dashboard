@@ -27,4 +27,4 @@ https://www.kaggle.com/datasets/ismatkhan121/supermarket-sales-dataset
 ##  Cara Menjalankan Project
 
 1. Clone repository:
-https://github.com/USERNAME/supermarket-dashboard.git
+   https://github.com/Ajeng740/supermarket-dashboard?utm_source=chatgpt.com
