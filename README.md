@@ -4,19 +4,19 @@
 
 Project ini merupakan dashboard analisis data penjualan supermarket menggunakan Python dan Streamlit.
 
-Tujuan dari project ini adalah untuk mengolah data transaksi supermarket menjadi informasi yang lebih mudah dipahami. Data yang awalnya berupa kumpulan transaksi dianalisis untuk melihat pola penjualan, produk yang memiliki penjualan tinggi, serta gambaran aktivitas pelanggan.
+Project ini dibuat untuk mengolah data transaksi supermarket menjadi informasi yang lebih mudah dipahami. Melalui proses pengolahan data dan visualisasi, pengguna dapat melihat pola penjualan, produk yang memiliki performa terbaik, serta gambaran aktivitas pelanggan.
 
-Project ini dibuat sebagai latihan untuk meningkatkan kemampuan dalam pengolahan data, visualisasi, dan pembuatan dashboard menggunakan Python.
+Project ini dibuat sebagai latihan untuk meningkatkan kemampuan dalam penggunaan Python, analisis data, dan pembuatan dashboard interaktif.
 
 ---
 
 ## Fitur Dashboard
 
-Dashboard ini memiliki beberapa menu analisis, yaitu:
+Dashboard ini memiliki beberapa fitur analisis, yaitu:
 
 ### 1. Overview
 
-Menampilkan informasi umum dari dataset seperti:
+Menampilkan informasi umum dari data supermarket, seperti:
 
 - Total penjualan
 - Jumlah produk
@@ -26,29 +26,29 @@ Menampilkan informasi umum dari dataset seperti:
 
 ### 2. Sales Analysis
 
-Berisi analisis mengenai:
+Melakukan analisis penjualan berdasarkan:
 
-- Total penjualan berdasarkan kategori produk
+- Total sales berdasarkan kategori produk
 - Perkembangan penjualan berdasarkan waktu
 
 
 ### 3. Product Analysis
 
-Digunakan untuk melihat:
+Menampilkan informasi mengenai produk, seperti:
 
-- Produk dengan jumlah penjualan tertinggi
-- 10 produk terbaik berdasarkan total sales
+- Produk dengan penjualan tertinggi
+- Top 10 produk berdasarkan total sales
 
 
 ### 4. Customer Analysis
 
-Menampilkan informasi customer berdasarkan total pembelian untuk mengetahui customer dengan kontribusi penjualan terbesar.
+Melakukan analisis customer berdasarkan jumlah pembelian untuk mengetahui customer dengan kontribusi penjualan terbesar.
 
 ---
 
 ## Dataset
 
-Dataset yang digunakan adalah data transaksi supermarket yang berisi informasi seperti:
+Dataset yang digunakan merupakan data transaksi supermarket yang berisi informasi seperti:
 
 - Order ID
 - Order Date
@@ -60,7 +60,7 @@ Dataset yang digunakan adalah data transaksi supermarket yang berisi informasi s
 - Region
 - City
 
-Dataset digunakan untuk melakukan proses analisis dan visualisasi data penjualan.
+Dataset ini digunakan untuk melakukan proses data cleaning, analisis, dan visualisasi.
 
 ---
 
@@ -75,3 +75,81 @@ Dataset digunakan untuk melakukan proses analisis dan visualisasi data penjualan
 ---
 
 ## Struktur Project
+
+
+supermarket-dashboard
+
+│
+├── app.py
+├── supermarket.csv
+├── README.md
+└── requirements.txt
+
+
+---
+
+## Cara Menjalankan Project
+
+### 1. Clone Repository
+
+
+git clone https://github.com/Ajeng740/supermarket-dashboard.git
+
+
+### 2. Masuk ke Folder Project
+
+
+cd supermarket-dashboard
+
+
+### 3. Install Library yang Dibutuhkan
+
+
+pip install -r requirements.txt
+
+
+### 4. Jalankan Dashboard
+
+
+python -m streamlit run app.py
+
+
+Dashboard dapat diakses melalui browser:
+
+
+http://localhost:8501
+
+
+
+## Hasil Project
+
+Dashboard ini dapat membantu melihat informasi mengenai:
+
+- Performa penjualan supermarket
+- Kategori produk dengan penjualan tertinggi
+- Produk yang paling banyak memberikan kontribusi sales
+- Customer dengan transaksi terbesar
+
+
+
+## Pengembangan Selanjutnya
+
+Project ini masih dapat dikembangkan dengan beberapa fitur tambahan, seperti:
+
+- Customer segmentation menggunakan Machine Learning
+- Prediksi penjualan
+- Penambahan filter berdasarkan tanggal dan wilayah
+- Deployment dashboard secara online
+
+
+
+## Author
+
+Ajeng Wijayanti
+
+Project ini dibuat sebagai latihan untuk mengembangkan kemampuan dalam:
+
+- Python Programming
+- Data Analysis
+- Data Visualization
+- Machine Learning
